@@ -1,0 +1,34 @@
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px red;
+}
+
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover{
+    background: lightgray;
+}
+
+.task {
+    text-align: left;
+}
+
+.delete {
+    text-align: center;
+}
+
+.delete a{
+    color: white;
+    background: red;
+    padding: 1px 4px;
+    border-radius: 3px;
+    /*text-decoration: none;*/
+
+}
